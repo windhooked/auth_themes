@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/qor/auth"
-	"github.com/qor/auth/claims"
-	"github.com/qor/auth/providers/password"
 	"github.com/qor/i18n"
 	"github.com/qor/i18n/backends/yaml"
 	"github.com/qor/qor"
 	"github.com/qor/qor/utils"
 	"github.com/qor/render"
+	"github.com/windhooked/auth"
+	"github.com/windhooked/auth/claims"
+	"github.com/windhooked/auth/providers/password"
 )
 
 // ErrPasswordConfirmationNotMatch password confirmation not match error
