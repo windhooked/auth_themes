@@ -1,3 +1,3 @@
-module windhooked/auth_themes
+module github.com/windhooked/auth_themes
 
 go 1.13
